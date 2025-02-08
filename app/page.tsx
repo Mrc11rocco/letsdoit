@@ -1,3 +1,33 @@
+export default function Home() {
+  return (
+    <div className="min-h-screen bg-gray-100">
+      {/* Header */}
+      <header className="bg-gray-800 text-white py-4">
+        <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
+          <h1 className="text-2xl font-bold">AI Tools for Startups</h1>
+          <nav>
+            <ul className="flex space-x-6">
+              <li><a href="#" className="hover:text-gray-400">Home</a></li>
+              <li><a href="#" className="hover:text-gray-400">About</a></li>
+              <li><a href="#" className="hover:text-gray-400">Services</a></li>
+              <li><a href="#" className="hover:text-gray-400">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      {/* Main Content */}
+      <main className="max-w-7xl mx-auto px-6 py-12">
+        <h2 className="text-4xl font-semibold text-gray-900">Welcome to the Future of AI</h2>
+        <p className="mt-4 text-lg text-gray-700">
+          Explore the best AI development tools for startups and SMEs to drive growth and innovation.
+        </p>
+      </main>
+    </div>
+  );
+}
+
+
 import Image from "next/image";
 
 export default function Home() {
